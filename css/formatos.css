@@ -1,0 +1,18 @@
+/* SELETORES */
+
+/* Seletor por nome da tag */
+h1 {
+    color:white;
+    background-color:#c23700;
+}
+
+/* Seletor por ID */
+#titulo {
+
+}
+
+/* Seletor por classe */
+
+.titulo{
+
+}
