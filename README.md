@@ -12,8 +12,6 @@ Universidade Estácio de Sá | Full Stack Development
 
 - [Live demo](#live-demo)
 
-- [Developer](#developer)
-
 ## About 
 
 <p align="justify">
@@ -30,8 +28,3 @@ A cooking website project that was part of the Full Stack Development course at 
 ## Live demo
 
 For a live demo, please visit [https://abcavet.github.io/cooking-website/](https://abcavet.github.io/cooking-website/).
-
-## Developer
-
-| [<img src="https://avatars.githubusercontent.com/u/72396598?v=4" width=115><br><sub>Ana Beatriz Cavet - 202204347644</sub>](https://github.com/abcavet) |
-| :---: | :---: | :---:  
