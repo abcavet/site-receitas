@@ -2,92 +2,147 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="./assets/css/estilos.css">
+  <title>Receitas da Tia Jurema</title>
 
-    <title>Receitas da Tia Jurema</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-<!-- INÍCIO CABEÇALHO -->
-<header style="background-color:#c23700">
-    <img src="./img/logo.png" alt="imagem logo Receitas"/>
-    
-    <div id="box_inicial">
-        <h1>Bem vindo ao site de receitas da Tia Jurema!</h1>
 
-        <h3>Conheça deliciosas receitas para o dia a dia.</h3>
-        <a href="#home">Home</a>
-        <a href="#receitas">Receitas</a>
-        <a href="./receitas/cadastro.html">Cadastro</a>
-    </div>
-</header>
-<!-- FIM CABEÇALHO -->
+  <!-- Header -->
+  <header class="container-fluid">
+    <section class="container">
+      <article class="row d-flex align-items-center">
+          <a href="./" class="col-md-2 d-flex justify-content-center">
+            <img src="./assets/images/logo.svg">
+          </a>
+      </article>
+    </section>
+  </header>
 
-<!-- INÍCIO CONTEÚDO PRINCIPAL -->
-<main>
-<section>
-    <div>
-        <div id="box_secundario">
-            <h2>Arroz de couve flor</h2>
-            <ul>
-                <li>Arroz</li>
-                <li>Couve-flor</li>
-                <li>Cebola média</li>
-                <li>Azeite</li>
+  <!-- Menu -->
+  <nav class="container-fluid nav-produtos">
+    <section class="container">
+      <ul class="nav">
+        <li href="./index.html" class="col-xl-2 col-lg-3 col-md-12 nav-item d-flex align-items-center">
+          Receitas
+        </li>
+        <li href="./cadastro.html" class="col-xl-2 col-lg-3 col-md-12 nav-item d-flex align-items-center">
+          Cadastro
+        </li>
+      </ul>
+    </section>
+  </nav>
+
+  <!-- Main -->
+  <main>
+    <!-- Receitas -->
+    <section class="container produtos">
+      <article class="row">
+        <a class="produtos-container col-md-3">
+          <img src="./assets/images/arroz_couve_flor.jpg">
+
+          <article class="receitas">
+            <h2><br>&nbsp;Arroz de couve-flor<br>&nbsp;</h2>
+
+            <ul class="receitas-texto">
+              <li>Arroz</li>
+              <li>Couve-flor</li>
+              <li>Salsinha</li>
+              <li>Cebola média</li>
+              <li>Azeite</li>
             </ul>
-            <p class="text1">Deixe a couve-flor picada. Adicione os ingredientes e refogue bem. Adicione sal, tampe a panela e deixe cozinhar.</p>
-        </div>
-    </div>
 
-    <div>
-        <div id="box_secundario">
-            <h2>Bolo de café</h2>
-            <ul>
-                <li>Farinha de trigo</li>
-                <li>Açúcar</li>
-                <li>Café coado</li>
-                <li>Chocolate em pó</li>
-                <li>Ovos</li>
+            <strong class="receitas-texto">Deixe a couve-flor e a salsinha picadas. Adicione os ingredientes e refogue bem. Adicione sal, tampe a panela e deixe cozinhar.</strong>
+          </article>
+        </a>
+
+        <a class="produtos-container col-md-3">
+          <img src="./assets/images/bolo_cafe.jpg">
+
+          <article class="receitas">
+            <h2><br>&nbsp;Bolo de café<br>&nbsp;</h2>
+
+            <ul class="receitas-texto">
+              <li>Farinha de trigo</li>
+              <li>Açúcar</li>
+              <li>Café coado</li>
+              <li>Chocolate em pó</li>
+              <li>Ovos</li>
             </ul>
-            <p class="text1">Bata o açúcar, as gemas e o café. Adicione farinha e chocolate e mexa bem. Bata as claras e junte à mistura.</p>
-        </div>
-    </div>
 
-    <div>
-        <div id="box_secundario">
-            <h2>Coxinha de brigadeiro</h2>
-            <ul>
-                <li>Leite condensado</li>
-                <li>Chocolate em pó</li>
-                <li>Manteiga</li>
-                <li>Morango</li>
-                <li>Chocolate granulado</li>
+            <strong class="receitas-texto">Bata o açúcar, as gemas e o café. Adicione farinha e chocolate e mexa bem. Bata as claras e junte à mistura.</strong>
+          </article>
+        </a>
+
+        <a class="produtos-container col-md-3">
+          <img src="./assets/images/coxinha_brigadeiro.jpg">
+
+          <article class="receitas">
+            <h2><br>&nbsp;Coxinha de brigadeiro<br>&nbsp;</h2>
+
+            <ul class="receitas-texto">
+              <li>Leite condensado</li>
+              <li>Chocolate em pó</li>
+              <li>Manteiga</li>
+              <li>Morango</li>
+              <li>Farinha</li>
             </ul>
-            <p class="text1">Junte o leite condensado, chocolate em pó e manteiga. Aqueça no fogo baixo. Envolva os morangos e passe no granulado.</p>
-        </div>
-    </div>
-</section>
-    
-</main>
 
-<footer>
-    <p class="text1">INSERIR FOOTER</p>
-</footer>
-<!-- FIM CONTEÚDO PRINCIPAL -->
+            <strong class="receitas-texto">Junte o leite condensado, chocolate em pó e manteiga. Aqueça no fogo baixo. Envolva os morangos e passe no granulado.</strong>
+          </article>
+        </a>
 
+        <a class="produtos-container col-md-3">
+          <img src="./assets/images/bolo_milho.jpg">
 
+          <article class="receitas">
+            <h2><br>&nbsp;Bolo de milho<br>&nbsp;</h2>
 
+            <ul class="receitas-texto">
+              <li>Farinha de milho</li>
+              <li>Açúcar</li>
+              <li>Leite</li>
+              <li>Milho verde em conserva</li>
+              <li>Fermento</li>
+            </ul>
 
+            <strong class="receitas-texto">Bata o açúcar juntamente com a farinha, leite e milho. Misture o fermento à mão.</strong>
+          </article>
+        </a>
+      </article>
+    </section>
+  </main>
 
-<!-- Bootstrap -->
-<script src="./assets/js/jquery.js"></script>
-<script src="./assets/js/popper.js"></script>
-<script src="./assets/js/bootstrap.js"></script>
+  <!-- Footer -->
+  <footer class="container-fluid">
+    <section class="container">
+      <section class="row">
+        <article class="col-md-4">
+          <h4>Contato</h4>
 
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a href="tel:+5521999999999">(21) 99999-9999</a>
+            </li>
+            <li class="nav-item">
+              <a href="mailto:contato@tiajurema.com.br">contato@tiajurema.com.br</a>
+            </li>
+          </ul>
+
+        </article>
+      </section>
+    </section>
+  </footer>
+
+  <!-- Arquivos Bootstrap -->
+  <script src="./assets/js/jquery.js"></script>
+  <script src="./assets/js/popper.js"></script>
+  <script src="./assets/js/bootstrap.js"></script>
 </body>
+
 </html>
